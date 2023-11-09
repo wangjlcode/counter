@@ -1,1 +1,4 @@
-<p>wjltest works!</p>
+<button (click)="onIncrease()"  *ngIf="isShowIncreaseButton" >+</button>
+<span [style.background] =" textBackGroundColor" >number: {{number}}</span>
+<button (click)="onDecrease()" *ngIf="isShowDereaseButton" >-</button>
+<button (click)="onReset()">reset</button>
